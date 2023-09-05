@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Águia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="bd">
+    <center>
+        <h1>Avaliação de Preferência Cerebral</h1>
+        <fieldset id="branco">
+        <h3 id="resultado"> </h3>
+    </fieldset>
+    
+<br>
+     
+        
+    </center>
+
+<br><br><br><br>
+        <center>
+    <form action="">
+        <fieldset id="aguia">
+            <center>
+            <h2>Seu Perfil é:<br>Águia</h2>
+            </center>
+        <label class="shushu">
+            <h2>A águia tem como característica principal <mark>“fazer diferente”</mark>. Pessoas com o perfil de águia são criativas e usam a sua 
+                intuição com frequência para antecipar o futuro, provocar mudanças radicais e inspirar ideias. <br> <br>Essas características 
+                fazem com que ela seja impaciente e rebelde, defendendo sempre o novo pelo novo sem se preocupar com o 
+                presente.
+                Se sente motivado pela ausência de controles rígidos e ambiente de trabalho descentralizado. <br> <br>É informal, flexível e 
+                prima pela liberdade de expressão e para fazer exceções. Está sempre aguardando uma oportunidade para delegar 
+                tarefas e detalhes. <br> <br>
+                Pontos Fortes: Provocar mudanças radicais, Antecipar o futuro. 
+                Pontos de Melhoria: Falta de atenção para o presente, Impaciência e rebeldia.
+                Valores: Criatividade e Liberdade.</h2>
+
+     
+
+
+    </fieldset>
+    </form>
+    </center>
+
+    <script> 
+    document.getElementById("resultado").innerHTML =`Você é: ${localStorage.getItem("porcAguia")}` ;
+    </script>
+</body>
+</html>

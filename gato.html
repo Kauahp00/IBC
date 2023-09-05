@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Gato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="bd">
+
+<center>
+        <fieldset id="branco">
+    <h3 id="resultado"></h3>
+</fieldset>
+    <h1 id="ffgt">Avaliação de Preferência Cerebral</h1>
+<br>
+        
+        
+    </center>
+
+<br><br><br><br>
+        <center>
+    <form action="">
+        <fieldset id="gato">
+            <center>
+            <h2>Seu Perfil é:<br>Gato</h2>
+            </center>
+        <label class="shushu">
+            <h2>O Gato tem como característica principal o “fazer junto”. Pessoas com perfil do gato são sensíveis e tem um bom 
+                relacionamento no ambiente empresarial, mantendo a comunicação harmoniosa. <br> <br>Para isso podem esconder conflitos, 
+                colocar a felicidade acima dos resultados e manipular através dos sentimentos. 
+                Esses indivíduos têm grande aceitação social e facilidade de construir o consenso, o que provoca o reconhecimento da 
+                equipe e inspira a autoridade no trabalho em equipe.  <br> <br>
+                Pontos Fortes: Trabalhar em equipe, Comunicação aberta. 
+                Pontos de Melhoria: Esconder conflitos, Manipular através dos sentimentos. 
+                Valores: Felicidade e Igualdade.</h2>
+
+     
+     
+
+    </fieldset>
+    </form>
+    </center>
+    <script>document.getElementById("resultado").innerHTML =`Você é: ${localStorage.getItem("porcGato")}` ;</script>
+    <style> h3{font-size: 40px;}; #branco{background-color: rgb(255, 255, 255) ;}</style>
+</body>
+</html>
